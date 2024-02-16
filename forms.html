@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form accept="#" method="get">
+        <center>
+
+        <div>
+            <label>Primer Nombre: </label>
+            <input type="text" 
+            name="primerNombre" 
+            maxlength="10" 
+            placeholder="Ingrese su Primer Nombre" 
+            value="" 
+            required/>
+            <div><br>
+                <label>Comtraseña</label>
+                <input type="password" name="pwd"/>
+            </div><br>
+            <div>
+                <label>Edad</label>
+                <input type="number" name="edad" min="1" max="120"/>
+            </div><br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="example@gmail.com"/>
+            </div><br>
+            <div>
+                <label>Archivo</label>
+                <input type="file" name="Archivo" multiple/>
+            </div>
+        </div><br>
+        <div>
+            <label>Color</label>
+            <input type="color" name="color" />
+        </div><br>
+        <div>
+            <label>Fecha</label>
+            <input type="date" name="Fecha" />
+        </div><br>
+        <div>
+            <label>Fecha Hora</label>
+            <input type="datetime-local" name="fechaHora" />
+        </div>
+        <div><br>
+            <label>Ciudad</label>
+            <select name="Ciudad">
+                <option value="">Seleccione una ciudad</option>
+                <option value="1">Tunja</option>
+                <option value="2">Duitama</option>
+                <option value="3">Paipa</option>
+                <option value="4">Sogamoso</option>
+
+            </select>
+        </div>
+        <div><br>
+            <label>Estado Civil</label>
+            <label>
+                <input type="radio" name="estadoCivil" value="a"/>Soltero/a
+            </label>
+            <label>
+                <input type="radio" name="estadoCivil" value="a"/>Casado/a
+            </label>
+            <label>
+                <input type="radio" name="estadoCivil" value="a"/>Ninguno
+            </label>
+        </div>
+        <div><br>
+            <label>Pasatiempos</label>
+            <label>
+                <input type="checkbox" name="deportes" /> Deportes
+            </label>
+            <label>
+                <input type="checkbox" name="Videojuegos" /> Video Juegos
+            </label>
+            <label>
+                <input type="checkbox" name="lectura" checked/> Lectura
+            </label>
+        </div>
+        <div><br>
+            <label>Justificacion</label>
+            <textarea name="justificacion" rows="10" cols="35">aaaaaaaaaaaaaaaaaaaaaaaa</textarea>
+        </div>
+        <div><br>
+            <input type="button" value="Boton"/>
+            <button disabled>Botón</button>
+        </div>
+        <div><br>
+            <input type="button" value="Limpiar"/>
+            <button type="reset">Limpiar</button>
+        </div>
+        <div><br>
+            <input type="button" value="Enviar"/>
+            <button type="reset">Enviar</button>
+        </div>
+
+    </center>
+    </form>
+    
+</body>
+</html>
