@@ -1,0 +1,22 @@
+.titulo{
+    color: brown;
+    font-size: 24px;
+    font-family: "Sixtyfour", sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    /*font-variant: small-caps;*/
+    text-align: center;
+    text-decoration: overline;
+    /*text-decoration: underline;* Sudrrallado/
+    /*text-decoration: line-through; Susrallado por el medio*/
+    text-shadow: 10px 20px 10px #00f;
+    text-transform: uppercase;/*Todo en MAYUSCULA*/
+    /*text-transform: lowercase; Todo en misuscula*/
+    /*text-transform: capitalize; //Primera letra en Mayuscula*/
+    text-indent: 50px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    /*line-height: 10px;*/
+
+
+}

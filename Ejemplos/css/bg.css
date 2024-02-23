@@ -1,0 +1,13 @@
+header{
+    width: 100vw;
+    height: 250px;
+    background: rgb(5, 231, 65);
+    background: url('../resourse/bg/bg1.webp'),
+    url('https://www.dominicos.org/media/photologue/photos/cache/silencio-de-la-noche-silencio-de-la-noche-bloque_ancho_completo.jpg');
+    background-size: 100px, cover;
+    background-repeat:no-repeat;
+    background-position: 163px 100px, 0px 0px;
+
+    
+
+}
